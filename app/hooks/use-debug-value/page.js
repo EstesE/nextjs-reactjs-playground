@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseDeferredValue = () => {
+const UseDebugValue = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useDeferredValue
+          useDebugValue
         </p>
       </div>
     </main>
   );
 };
 
-export default UseDeferredValue;
+export default UseDebugValue;

@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseDebugValue = () => {
+const UseImperativeHandle = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useDebugValue
+          useImperativeHandle
         </p>
       </div>
     </main>
   );
 };
 
-export default UseDebugValue;
+export default UseImperativeHandle;

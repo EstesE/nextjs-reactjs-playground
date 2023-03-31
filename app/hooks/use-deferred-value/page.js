@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseId = () => {
+const UseDeferredValue = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useId
+          useDeferredValue
         </p>
       </div>
     </main>
   );
 };
 
-export default UseId;
+export default UseDeferredValue;

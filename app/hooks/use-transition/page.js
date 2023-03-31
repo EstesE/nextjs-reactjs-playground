@@ -1,18 +1,17 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseInsertionEffect = () => {
-  
+const UseTransition = () => {
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useInsertionEffect
+          useTransition
         </p>
       </div>
     </main>
   );
 };
 
-export default UseInsertionEffect;
+export default UseTransition;

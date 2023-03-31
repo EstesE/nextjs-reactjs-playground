@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseRef = () => {
+const UseReducer = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useRef
+          useReducer
         </p>
       </div>
     </main>
   );
 };
 
-export default UseRef;
+export default UseReducer;

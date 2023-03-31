@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseLayoutEffect = () => {
+const UseSyncExternalStore = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useLayoutEffect
+          useSyncExternalStore
         </p>
       </div>
     </main>
   );
 };
 
-export default UseLayoutEffect;
+export default UseSyncExternalStore;

@@ -12,7 +12,7 @@ const Navigation = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Link href={'/'}><CabinIcon sx={{ mr: 1 }} /></Link>
+          <Link href={'/'}><CabinIcon sx={{ mr: 1, color: 'white' }} /></Link>
           <Typography
             variant="h6"
             noWrap

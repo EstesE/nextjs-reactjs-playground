@@ -3,7 +3,7 @@
 import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
 function countInitial() {
   console.log('run function');
@@ -49,11 +49,8 @@ const UseState = () => {
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          {/* <button onClick={decrementCount}>-</button> */}
           <Button variant='outlined' onClick={decrementCount}>-</Button>
-          {/* <span>{count} - {theme}</span> */}
           <Card variant="outlined">{count} - {theme}</Card>
-          {/* <button onClick={incrementCount}>+</button> */}
           <Button variant='outlined' onClick={incrementCount}>+</Button>
         </p>
       </div>

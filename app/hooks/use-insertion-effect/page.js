@@ -1,18 +1,18 @@
 "use client";
 
-import styles from '../page.module.css';
+import styles from '../../page.module.css';
 
-const UseImperativeHandle = () => {
+const UseInsertionEffect = () => {
   
   return (
     <main className={styles.main}>
       <div className={styles.description} style={{ placeContent: "center" }}>
         <p>
-          useImperativeHandle
+          useInsertionEffect
         </p>
       </div>
     </main>
   );
 };
 
-export default UseImperativeHandle;
+export default UseInsertionEffect;
