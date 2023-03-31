@@ -1,6 +1,12 @@
+import styles from '../page.module.css';
+
 const CatchAll = () => {
   return (
-    <h1>CatchAll 404</h1>
+    <main className={styles.main}>
+      <div className={styles.description} style={{ placeContent: "center" }}>
+        Catch All
+      </div>
+    </main>
   );
 };
 

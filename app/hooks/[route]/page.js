@@ -1,8 +1,14 @@
-"use client";
+import styles from '../../page.module.css';
 
 const Hooks = ({ params }) => {
   const id = params.route;
-  return <p>Testing Dynamic Routes: {id}</p>
+  return (
+    <main className={styles.main}>
+      <div className={styles.description} style={{ placeContent: "center" }}>
+        Testing Dynamic Routes: {id}
+      </div>
+    </main>
+  );
 };
 
 export default Hooks;
