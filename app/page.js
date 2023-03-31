@@ -46,7 +46,7 @@ export default function Home() {
 
           {data.map((d) => {
             return (
-              <Grid item xs={12} sm={4}>
+              <Grid key={d.route} item xs={12} sm={4}>
                 <Link className={styles.card} href={`/hooks/${d.route}`}>
                   <Item>
                     <h2 className={inter.className}>
