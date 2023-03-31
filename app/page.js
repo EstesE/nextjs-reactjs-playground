@@ -58,7 +58,7 @@ export default function Home() {
                 </Link>
               </Grid>
             );
-          })};
+          })}
 
         </Grid>
       </Box>
