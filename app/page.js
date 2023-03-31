@@ -21,6 +21,7 @@ export default function Home() {
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: 'center',
+    height: '100%',
     color: theme.palette.text.secondary,
   }));
 
