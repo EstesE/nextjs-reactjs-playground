@@ -26,7 +26,7 @@ export default function Home() {
   }));
 
   return (
-      <Box className={styles.main} sx={{ flexGrow: 1 }}>
+      <Box className={styles.main} sx={{ flexGrow: 1, marginBottom: '0' }}>
         <Grid container spacing={2} columns={{ md: 12 }} direction="row">
           <Grid item xs={12}>
             <div className={styles.center}>
