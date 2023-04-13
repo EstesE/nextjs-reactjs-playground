@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
-}
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "quotes": [
+            "error",
+            "double",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "space-in-parens": [
+            "error",
+            "always"
+        ]
+    }
+  }
