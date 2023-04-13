@@ -8,10 +8,7 @@ import Link from "next/link";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
-// import Data from '@/data';
 import { data } from "@/data";
-import SmsFailedIcon from "@mui/icons-material/SmsFailed";
-import { Fragment } from "react";
 
 const inter = Inter( { subsets: ["latin"] } );
 
